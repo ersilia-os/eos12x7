@@ -5,8 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-model/checkpoints/*
-model/framework/fit/*
+
 # Distribution / packaging
 .Python
 build/

@@ -1,1 +1,3 @@
 name,type,direction,description
+sps_score,integer,high,Complexity score based on spacial features of the molecule
+nsps_score,float,high,Normalized spacial score
