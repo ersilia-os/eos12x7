@@ -2,37 +2,39 @@ Identifier: eos12x7
 Slug: spacial-score-complexity
 Status: In progress
 Title: Spacial Score topological indicator of molecular complexity
-Description: This tool computes the Spatial Score (SPS) and its size-normalized variant
-  (nSPS), two empirical descriptors of molecular spatial complexity that extend commonly
-  used measures such as the fraction of sp3-hybridized carbons (Fsp3) and stereogenic
-  carbons (FCstereo) by capturing additional aspects of molecular topology and three-dimensionality
-  on a highly granular scale. The normalized score enables comparison across molecules
-  of different sizes and differentiates natural products from synthetic compounds,
-  while analyses of large bioactivity datasets such as ChEMBL show general trends
-  of increasing potency and selectivity with higher nSPS values.
+Description: This tool computes the Spatial Score (SPS) and its size-normalized 
+  variant (nSPS), two empirical descriptors of molecular spatial complexity that
+  extend commonly used measures such as the fraction of sp3-hybridized carbons 
+  (Fsp3) and stereogenic carbons (FCstereo) by capturing additional aspects of 
+  molecular topology and three-dimensionality on a highly granular scale. The 
+  normalized score enables comparison across molecules of different sizes and 
+  differentiates natural products from synthetic compounds, while analyses of 
+  large bioactivity datasets such as ChEMBL show general trends of increasing 
+  potency and selectivity with higher nSPS values.
 Deployment:
-- Local
+  - Local
 Source: Local
 Source Type: External
 Task: Annotation
 Subtask: Property calculation or prediction
 Input:
-- Compound
+  - Compound
 Input Dimension: 1
 Output:
-- Score
+  - Score
 Output Dimension: 2
 Output Consistency: Fixed
-Interpretation: 'Spacial score calculated by RdKIT'
+Interpretation: Spacial score calculated by RdKIT
 Tag:
-- Descriptor
-- Synthetic accessibility
+  - Descriptor
+  - Synthetic accessibility
 Biomedical Area:
-- Any
+  - Any
 Target Organism:
-- Any
+  - Any
 Publication Type: Peer reviewed
 Publication Year: 2023
 Publication: https://pubs.acs.org/doi/10.1021/acs.jmedchem.3c00689
 Source Code: https://github.com/frog2000/Spacial-Score
 License: BSD-3-Clause
+Incorporation Date: '2026-01-20'
