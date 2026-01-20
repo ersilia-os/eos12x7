@@ -38,3 +38,6 @@ Publication: https://pubs.acs.org/doi/10.1021/acs.jmedchem.3c00689
 Source Code: https://github.com/frog2000/Spacial-Score
 License: BSD-3-Clause
 Incorporation Date: '2026-01-20'
+S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos12x7.zip
+Model Size: 1.0
+Environment Size: 502.0
