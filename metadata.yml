@@ -1,6 +1,6 @@
 Identifier: eos12x7
 Slug: spacial-score-complexity
-Status: In progress
+Status: Ready
 Title: Spacial Score topological indicator of molecular complexity
 Description: This tool computes the Spatial Score (SPS) and its size-normalized 
   variant (nSPS), two empirical descriptors of molecular spatial complexity that
@@ -38,6 +38,18 @@ Publication: https://pubs.acs.org/doi/10.1021/acs.jmedchem.3c00689
 Source Code: https://github.com/frog2000/Spacial-Score
 License: BSD-3-Clause
 Incorporation Date: '2026-01-20'
+Last Packaging Date: '2026-01-20'
+Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos12x7.zip
+DockerHub: https://hub.docker.com/r/ersiliaos/eos12x7
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 1.0
 Environment Size: 502.0
+Image Size: 454.83
+Computational Performance 1: 27.98
+Computational Performance 2: 17.84
+Computational Performance 3: 17.9
+Computational Performance 4: 21.06
+Computational Performance 5: 35.4
