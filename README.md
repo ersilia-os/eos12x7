@@ -2,6 +2,7 @@
 
 This tool computes the Spatial Score (SPS) and its size-normalized variant (nSPS), two empirical descriptors of molecular spatial complexity that extend commonly used measures such as the fraction of sp3-hybridized carbons (Fsp3) and stereogenic carbons (FCstereo) by capturing additional aspects of molecular topology and three-dimensionality on a highly granular scale. The normalized score enables comparison across molecules of different sizes and differentiates natural products from synthetic compounds, while analyses of large bioactivity datasets such as ChEMBL show general trends of increasing potency and selectivity with higher nSPS values.
 
+This model was incorporated on 2026-01-20.
 
 
 ## Information
@@ -35,8 +36,11 @@ Below are the **Output Columns** of the model:
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `External`
+- **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos12x7.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos12x7.zip)
 
 ### Resource Consumption
+- **Model Size (Mb):** `1`
+- **Environment Size (Mb):** `502`
 
 
 ### References
