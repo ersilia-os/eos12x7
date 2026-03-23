@@ -2,7 +2,7 @@
 
 This tool computes the Spatial Score (SPS) and its size-normalized variant (nSPS), two empirical descriptors of molecular spatial complexity that extend common measures like Fsp3 and FCstereo by capturing molecular topology and three-dimensionality at a granular scale. The normalized score enables comparison across molecules of different sizes and differentiates natural products from synthetic compounds. Analyses of ChEMBL data show trends of increasing potency and selectivity with higher nSPS values.
 
-This model was incorporated on 2026-01-20.Last packaged on 2026-01-20.
+This model was incorporated on 2026-01-20.Last packaged on 2026-03-23.
 
 ## Information
 ### Identifiers
@@ -36,18 +36,18 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `External`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos12x7](https://hub.docker.com/r/ersiliaos/eos12x7)
-- **Docker Architecture:** `AMD64`, `ARM64`
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos12x7.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos12x7.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `509`
-- **Image Size (Mb):** `454.83`
+- **Image Size (Mb):** `452.06`
 
 **Computational Performance (seconds):**
-- 10 inputs: `27.98`
-- 100 inputs: `17.9`
-- 10000 inputs: `35.4`
+- 10 inputs: `34.15`
+- 100 inputs: `26.93`
+- 10000 inputs: `44.53`
 
 ### References
 - **Source Code**: [https://github.com/frog2000/Spacial-Score](https://github.com/frog2000/Spacial-Score)
