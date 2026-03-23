@@ -1,6 +1,6 @@
 # Spacial Score topological indicator of molecular complexity
 
-This tool computes the Spatial Score (SPS) and its size-normalized variant (nSPS), two empirical descriptors of molecular spatial complexity that extend commonly used measures such as the fraction of sp3-hybridized carbons (Fsp3) and stereogenic carbons (FCstereo) by capturing additional aspects of molecular topology and three-dimensionality on a highly granular scale. The normalized score enables comparison across molecules of different sizes and differentiates natural products from synthetic compounds, while analyses of large bioactivity datasets such as ChEMBL show general trends of increasing potency and selectivity with higher nSPS values.
+This tool computes the Spatial Score (SPS) and its size-normalized variant (nSPS), two empirical descriptors of molecular spatial complexity that extend common measures like Fsp3 and FCstereo by capturing molecular topology and three-dimensionality at a granular scale. The normalized score enables comparison across molecules of different sizes and differentiates natural products from synthetic compounds. Analyses of ChEMBL data show trends of increasing potency and selectivity with higher nSPS values.
 
 This model was incorporated on 2026-01-20.Last packaged on 2026-01-20.
 
