@@ -36,18 +36,16 @@ Publication: https://pubs.acs.org/doi/10.1021/acs.jmedchem.3c00689
 Source Code: https://github.com/frog2000/Spacial-Score
 License: BSD-3-Clause
 Incorporation Date: '2026-01-20'
-Last Packaging Date: '2026-01-20'
+Last Packaging Date: '2026-03-23'
 Release: v1.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos12x7.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos12x7
-Docker Architecture:
-  - AMD64
-  - ARM64
+Docker Architecture: AMD64
 Model Size: 1.0
 Environment Size: 509.0
-Image Size: 454.83
-Computational Performance 1: 27.98
-Computational Performance 2: 17.84
-Computational Performance 3: 17.9
-Computational Performance 4: 21.06
-Computational Performance 5: 35.4
+Image Size: 452.06
+Computational Performance 1: 34.15
+Computational Performance 2: 26.8
+Computational Performance 3: 26.93
+Computational Performance 4: 24.12
+Computational Performance 5: 44.53
