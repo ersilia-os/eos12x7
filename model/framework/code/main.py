@@ -17,12 +17,15 @@ root = os.path.dirname(os.path.abspath(__file__))
 def my_model(smiles_list):
     results = []
     for smi in smiles_list:
-        if Chem.MolFromSmiles(smi) is None:
+        try:
+            if Chem.MolFromSmiles(smi) is None:
+                results.append([None, None])
+            else:
+                sps_score = SPS(Chem.MolFromSmiles(smi), normalize=False)
+                nsps_score = SPS(Chem.MolFromSmiles(smi), normalize=True)
+                results.append([sps_score, nsps_score])
+        except Exception:
             results.append([None, None])
-        else:
-            sps_score = SPS(Chem.MolFromSmiles(smi), normalize=False)
-            nsps_score = SPS(Chem.MolFromSmiles(smi), normalize=True)
-            results.append([sps_score, nsps_score])
     return results
 
 # read input
