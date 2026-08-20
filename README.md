@@ -1,6 +1,6 @@
 # Spacial Score topological indicator of molecular complexity
 
-Computes the spatial score, an empirical measure of three-dimensional complexity that goes beyond counting sp3 carbons or stereocentres by weighting each atom for its hybridisation, stereochemistry, ring fusion and substitution. Both the raw score and a size-normalised variant are returned, the latter allowing molecules of different sizes to be compared directly. The calculation is deterministic and requires no conformer, since complexity is inferred from topology rather than geometry.
+This tool computes the Spatial Score (SPS) and its size-normalized variant (nSPS), two empirical descriptors of molecular spatial complexity that extend common measures like Fsp3 and FCstereo by capturing molecular topology and three-dimensionality at a granular scale. The normalized score enables comparison across molecules of different sizes and differentiates natural products from synthetic compounds. Analyses of ChEMBL data show trends of increasing potency and selectivity with higher nSPS values.
 
 This model was incorporated on 2026-01-20.Last packaged on 2026-03-23.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-01-20.Last packaged on 2026-03-23.
 ### Output
 - **Output Dimension:** `2`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Spatial complexity score and its size-normalised variant, where higher values indicate greater complexity.
+- **Interpretation:** Spacial score calculated by RdKIT
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
