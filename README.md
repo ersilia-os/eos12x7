@@ -1,6 +1,6 @@
 # Spacial Score topological indicator of molecular complexity
 
-Computes the spatial score, an empirical measure of three-dimensional complexity that goes beyond counting sp3 carbons or stereocentres by weighting each atom for its hybridisation, stereochemistry, ring fusion and substitution. Both the raw score and a size-normalised variant are returned, the latter allowing molecules of different sizes to be compared directly. The calculation is deterministic and requires no conformer, since complexity is inferred from topology rather than geometry.
+Computes the spacial score, an empirical measure of molecular topology and three-dimensionality that goes beyond counting sp3 carbons or stereocentres by weighting every heavy atom for its hybridisation, stereogenicity, membership of a non-aromatic ring and number of heavy-atom neighbours. A size-normalised variant accompanies the raw score, letting molecules of different sizes be compared and separating natural products from synthetic collections; across ChEMBL, higher normalised values track with greater potency and selectivity. The calculation is deterministic and needs no 3D conformer.
 
 This model was incorporated on 2026-01-20.Last packaged on 2026-03-23.
 
