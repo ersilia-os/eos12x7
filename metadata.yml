@@ -2,14 +2,15 @@ Identifier: eos12x7
 Slug: spacial-score-complexity
 Status: Ready
 Title: Spacial Score topological indicator of molecular complexity
-Description: Computes the spacial score, an empirical measure of molecular topology
-  and three-dimensionality that goes beyond counting sp3 carbons or stereocentres
-  by weighting every heavy atom for its hybridisation, stereogenicity, membership
-  of a non-aromatic ring and number of heavy-atom neighbours. A size-normalised variant
-  accompanies the raw score, letting molecules of different sizes be compared and
-  separating natural products from synthetic collections; across ChEMBL, higher normalised
-  values track with greater potency and selectivity. The calculation is deterministic
-  and needs no 3D conformer.
+Description: Computes the spacial score, an empirical measure of molecular 
+  topology and three-dimensionality that goes beyond counting sp3 carbons or 
+  stereocentres by weighting every heavy atom for its hybridisation, 
+  stereogenicity, membership of a non-aromatic ring and number of heavy-atom 
+  neighbours. A size-normalised variant accompanies the raw score, letting 
+  molecules of different sizes be compared and separating natural products from 
+  synthetic collections; across ChEMBL, higher normalised values track with 
+  greater potency and selectivity. The calculation is deterministic and needs no
+  3D conformer.
 Deployment:
   - Local
 Source: Local
@@ -23,8 +24,8 @@ Output:
   - Score
 Output Dimension: 2
 Output Consistency: Fixed
-Interpretation: Spatial complexity score and its size-normalised variant, where higher
-  values indicate greater complexity.
+Interpretation: Spatial complexity score and its size-normalised variant, where 
+  higher values indicate greater complexity.
 Tag:
   - Descriptor
   - Synthetic accessibility
@@ -40,7 +41,7 @@ License: BSD-3-Clause
 Contributor: miquelduranfrigola
 Incorporation Date: '2026-01-20'
 Last Packaging Date: '2026-03-23'
-Release: v1.0.1
+Release: v1.0.2
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos12x7.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos12x7
 Docker Architecture: AMD64
