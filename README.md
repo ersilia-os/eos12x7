@@ -2,7 +2,8 @@
 
 Computes the spacial score, an empirical measure of molecular topology and three-dimensionality that goes beyond counting sp3 carbons or stereocentres by weighting every heavy atom for its hybridisation, stereogenicity, membership of a non-aromatic ring and number of heavy-atom neighbours. A size-normalised variant accompanies the raw score, letting molecules of different sizes be compared and separating natural products from synthetic collections; across ChEMBL, higher normalised values track with greater potency and selectivity. The calculation is deterministic and needs no 3D conformer.
 
-This model was incorporated on 2026-01-20.Last packaged on 2026-03-23.
+This model was incorporated on 2026-01-20.
+Last packaged on 2026-03-23.
 
 ## Information
 ### Identifiers
@@ -38,6 +39,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos12x7](https://hub.docker.com/r/ersiliaos/eos12x7)
 - **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos12x7.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos12x7.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos12x7_v1.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos12x7_v1.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
